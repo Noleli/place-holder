@@ -1,0 +1,13 @@
+{
+	"name": "@noleli/place-holder",
+	"version": "1.0.0",
+	"description": "A simple web component that gives you a box with an X through it.",
+	"main": "Placeholder.js",
+	"keywords": [
+		"design",
+		"placeholder",
+		"web component",
+		"custom element"
+	],
+	"author": "Noah Liebman",
+}

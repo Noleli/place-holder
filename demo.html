@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="./Placeholder.js" type="module"></script>
+		<title>place-holder demo</title>
+		<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-block-size: 100vb;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: auto 1fr;
+	grid-template-areas:
+		"header header"
+		"sidebar main"
+		"footer footer";
+}
+
+header {
+	grid-area: header;
+}
+
+aside {
+	grid-area: sidebar;
+}
+
+main {
+	grid-area: main;
+}
+
+footer {
+	grid-area: footer;
+}
+		</style>
+	</head>
+	<body>
+		<header><place-holder style="height: 10rem"></place-holder></header>
+		<aside><place-holder style="width: 20ch; height: 100%"></place-holder></aside>
+		<main><place-holder style="height: 100%"></place-holder></main>
+		<footer><place-holder style="height: 10rem"></place-holder></footer>
+	</body>
+</html>
