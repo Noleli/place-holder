@@ -4,6 +4,8 @@
 
 By default it’s a random color (with an X that’s the inverse color), but colors and line weight are customizable.
 
+**[Demo](https://projects.noahliebman.net/place-holder/demo.html)**
+
 ## Installation
 
 Grab the script from this repo, or use NPM:
@@ -15,13 +17,13 @@ Grab the script from this repo, or use NPM:
 Import the script.
 
 ```html
-<script src="./Placeholder.js" type="module"></script>
+<script src="Placeholder.js" type="module"></script>
 ```
 
 Or
 
 ```js
-import { Placeholder } from "./Placeholder.js";
+import { Placeholder } from "Placeholder.js";
 ```
 
 Then use `<place-holder></place-holder>` as you would any other block element.
