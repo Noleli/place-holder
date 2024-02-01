@@ -10,4 +10,8 @@
 		"custom element"
 	],
 	"author": "Noah Liebman",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Noleli/place-holder.git"
+	}
 }

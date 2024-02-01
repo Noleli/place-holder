@@ -4,6 +4,12 @@
 
 By default it’s a random color (with an X that’s the inverse color), but colors and line weight are customizable.
 
+## Installation
+
+Grab the script from this repo, or use NPM:
+
+`npm install @noleli/place-holder`
+
 ## Usage
 
 Import the script.
