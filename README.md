@@ -28,7 +28,7 @@ import { Placeholder } from "Placeholder.js";
 
 Then use `<place-holder></place-holder>` as you would any other block element.
 
-Since it has no intrinsic size, you’ll probably want to add a size in one or the other direction.
+Since it has no intrinsic size, you’ll probably want to make sure it’s sized by its containing layout, or add a size in one or the other direction.
 
 ```html
 <body>
@@ -37,7 +37,7 @@ Since it has no intrinsic size, you’ll probably want to add a size in one or t
     <main><place-holder style="height: 100%"></place-holder></main>
     <footer><place-holder style="height: 10rem"></place-holder></footer>
 </body>
-````
+```
 
 Customize styles with these CSS custom properties:
 
